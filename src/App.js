@@ -5,7 +5,7 @@ import BarplotPage from "./component/HorizontalBar.jsx/BarPlotPage";
 import StackedBarPage from "./component/Stacked bar/StackedbarPage";
 import LineChartPage from "./component/Line Chart/LineChartPage";
 import DonatChartPage from "./component/DonutChart/DonatChartPage";
-import MapComp from "./component/EXAMPLE/MapComponent";
+import MapComp from "./component/Map/MapComponent";
 
 function App() {
   return (
