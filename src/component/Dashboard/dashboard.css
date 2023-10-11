@@ -1,0 +1,41 @@
+/* dashboard.css */
+
+/* Style the container div */
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Style the select elements */
+  .select {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Style the options within select elements */
+  .select option {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the select elements when hovered */
+  .select:hover {
+    border-color: #007bff; /* Blue border on hover */
+  }
+  
+  /* Style the select elements when focused */
+  .select:focus {
+    border-color: #007bff; /* Blue border when focused */
+    box-shadow: 0 0 5px #007bff; /* Blue box shadow when focused */
+  }
+  
