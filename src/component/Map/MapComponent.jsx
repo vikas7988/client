@@ -44,8 +44,8 @@ function MapComp() {
       <h1 className="heading">Geographical representation of Data</h1>
         <MapContainer
           style={{ height:'600px', background:'white' }}
-          center={[20, 100]}
-          zoom={2}
+          center={[20, 30]}
+          zoom={1.5}
           attributionControl={null}
           zoomControl={false}
           scrollWheelZoom={false}

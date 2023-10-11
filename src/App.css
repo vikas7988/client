@@ -1,5 +1,45 @@
+
+.MapDonat {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  width: 95%;
+  gap: 3%;
+  margin: auto;
+}
+
+.barplot {
+  text-align: center;
+  width: 95%;
+  margin: 25px auto;
+}
+
+.linechart {
+  display: block;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.scatter {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  width: 95%;
+  gap: 4%;
+  margin: 20px auto;
+}
+
 .heading{
   color:rgb(101, 98, 98);
   text-align: center;
   /* margin-top: 20px; */
+}
+
+@media screen and (max-width: 768px) {
+  .MapDonat {
+    grid-template-columns: 1fr;
+  }
+
+  .scatter {
+    grid-template-columns: 1fr;
+  }
 }

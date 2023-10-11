@@ -56,11 +56,12 @@ const DonatChartPage = () => {
     console.log(topicArray);
   }, [redData]);
   
-  return (
-    <div  >
+  return (<>
+  {donutData.length===0?null: <div  >
       <DonutChart data={donutData} width={750} height={600}  />
-    </div>
-  );
+    </div> }
+   
+    </>);
 };
 
 export default DonatChartPage;
